@@ -39,7 +39,11 @@ import os, sys, re ....
 ############### FUNCTIONS TO :
 
 ## 1/ Check, 
-
+fd open("*.sam","r")
+for ligne in fd:
+        if (^@[A-Z][A-Z]):
+                header={ligne}
+                print(header)
 ## 2/ Read, 
 
 ## 3/ Store,
