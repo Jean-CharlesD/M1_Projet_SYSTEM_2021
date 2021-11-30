@@ -38,7 +38,13 @@ import os, sys, re ....
 
 ############### FUNCTIONS TO :
 
-## 1/ Check, 
+## 1/ Vérifier la présence et le format du fichier SAM, 
+import os.path
+if os.path.isfile('*.sam'):
+        print("Présence d'un fichier SAM.")
+        else:
+        print("Erreur : pas de fichier SAM")
+
 fd open("*.sam","r")
 for ligne in fd:
         if (^@[A-Z][A-Z]):
