@@ -2,8 +2,8 @@
 #-*- coding : utf-8 -*-
 
 
-__authors__ = ("XXX", "XXX")
-__contact__ = ("XXX@etu.umontpellier.fr","XXX@etu.umontpellier.fr")
+__authors__ = ("DELMAS Jean-Charles", "MESTIRI Yosra")
+__contact__ = ("jean-charles.delmas@etu.umontpellier.fr","mestiri.yosra@etu.umontpellier.fr")
 __version__ = "0.0.1"
 __date__ = "12/14/2021"
 __licence__ ="This program is free software: you can redistribute it and/or modify
@@ -33,13 +33,12 @@ __licence__ ="This program is free software: you can redistribute it and/or modi
 
 ############### IMPORT MODULES ###############
 
-import os, sys, re ....
+import os.path, os, sys, re ....
 
 
 ############### FUNCTIONS TO :
 
 ## 1/ Vérifier la présence et le format du fichier SAM, 
-import os.path
 if os.path.isfile('*.sam'):
         print("Présence d'un fichier SAM.")
         else:
