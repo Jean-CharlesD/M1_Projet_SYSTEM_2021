@@ -17,8 +17,8 @@
         
         Le programme est fonctionnel, mais des améliorations sont encore possibles.
         
-        Le programme est en python3, pour l'utiliser il faut récupérer le script nommé "systeme05MainMapping".
-        Les modules os, pysam, shutil sont nécessaires pour faire fonctionner le programme.
+        Le programme est en python3, pour l'utiliser il faut récupérer le script nommé "MainMapping.py".
+        Les modules os, pysam, shutil, re sont nécessaires pour faire fonctionner le programme.
         Le script s'exécute dans le dossier contenant les fichiers à traiter, il s'exécute dans un terminal de commande.
         Une fois le script exécuté, aucune autre action n'est requise de la part de l'utilisateur.
         
@@ -28,7 +28,7 @@
 
         #- paramètres : AUCUN
         
-        #- modules nécessaires : os ; pysam ; shutil
+        #- modules nécessaires : os ; pysam ; shutil ; re
 
 #* Exécution du script : 
 
@@ -36,9 +36,9 @@
      
         #- ouvrir un terminal de commandes, puis se placer dans le dossier à traiter, via la commande : cd <chemin du dossier>
         
-        #- octroier le droit d'exécution au script, à l'aide de la commande : chmod +x systeme05MainMapping
+        #- octroier le droit d'exécution au script, à l'aide de la commande : chmod +x MainMapping.py
         
-        #- exécuter le script, en entrant la commande : python3 systeme05MainMapping
+        #- exécuter le script, en entrant la commande : python3 MainMapping.py
 
 #* Notes : 
 
